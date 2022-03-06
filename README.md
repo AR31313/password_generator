@@ -21,3 +21,5 @@ Application is clean and polished, responsive user interface that adapts to mult
 ```
 
 * Screenshot of the deployed application:
+https://github.com/AR31313/password_generator/blob/2e835f8efccc64222ebe7a1dc4cac2f8c16250a6/screenshot.png
+
