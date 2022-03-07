@@ -1,6 +1,18 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+
+}
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
 //declared in the global scope and is available to all functions 
 var generatePassword ={
     num = [0,1,2,3,4,5,6,7,8,9];
@@ -10,28 +22,16 @@ var generatePassword ={
     //numcharacter =
 };
 
-// Write password to the #password input
-// This is a function writePassword
-function writePassword( upper  +lower + num  +specialChars) {
-  var password = generatePassword();
-  var passwordText = document.querySelector(upper +lower + num  +specialChars); //#password input
-  passwordText.value = password;
-}
-// This is a function writePassword
-var writePassword = function () {
-    console.log("Your Secure Password Is" + );
-    return;
-  };
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
-// For loop starts at 0, runs while i is less than length of *student array
-// Increments by 1
-for (var i = 0; i < lower.length; i++) { // Functions parameters.
-    // This statement will run each time the loop is executed
-    console.log(
-      "Your Secure Password Is " +
-        lower[Math.floor(Math.random() * lower.length)] 
-    );
-  }
+//a function named generatePassword
+function generatePassword ({
+  //get the preference in
+  //identify & collect preference the user has chosen (1 or 4 chosen scopes)
+  //create a collection with the chosen scopes,locally scored temp array
+  //create a password variable, an array
+  //randomly draw character
+  //put the character on the generatePassword variable
+  //repeat using forloops, as many times as specified.
+  //loop through garanteed elements, replace elements in pasword array. (Math.Random)
+  //join chraccters in the password array into a string.
+  //return the password string
+})
